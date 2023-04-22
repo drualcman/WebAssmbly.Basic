@@ -4,7 +4,13 @@
     <title>asm example</title>
 </head>
 <body>
-    <div id="output"></div>
+    <div id="output-js"></div>
+    <div id="output-wasm">
+        <input id="value" />
+        <button onclick="getFibonacciNumber('value')">Show Number with wasm</button>
+        <button onclick="getFibonacciNumberJS('value')">Show Number with JS</button>
+    </div>
     <script src="js/calc.js"></script>
+    <script src="js/wasm.js"></script>
 </body>
 </html>

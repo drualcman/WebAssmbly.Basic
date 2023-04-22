@@ -1,9 +1,9 @@
 ﻿function calc(stlib, foreign, heap) {
     "use asm"
     function add(a, b) {
-        a = a | 0.0;
-        b = b | 0.0;
-        return (a + b) | 0.0;
+        a = a | 0;
+        b = b | 0;
+        return (a + b) | 0;
     }
     return {
         add: add
@@ -17,5 +17,5 @@ var heap = new ArrayBuffer(1024);
 var calcInstance = calc(stdlib, foreign, heap);
 var result = calcInstance.add(3, 30);
 
-let element = document.getElementById("output");
+let element = document.getElementById("output-js");
 element.innerHTML = result;
