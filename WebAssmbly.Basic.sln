@@ -21,15 +21,25 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebAssmbly.Basic", ".", "{D
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "51580"
+		SlnRelativePath = "..\WebAssmbly.Basic\"
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorVsJsVsWasm", "BlazorVsJsVsWasm\BlazorVsJsVsWasm.csproj", "{8B6DC5BE-D87E-4F09-8681-F52923586849}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D3C1F53E-F787-426F-9C6E-4F0B7D3E9CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D3C1F53E-F787-426F-9C6E-4F0B7D3E9CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C1F53E-F787-426F-9C6E-4F0B7D3E9CBE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C1F53E-F787-426F-9C6E-4F0B7D3E9CBE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8B6DC5BE-D87E-4F09-8681-F52923586849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6DC5BE-D87E-4F09-8681-F52923586849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6DC5BE-D87E-4F09-8681-F52923586849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6DC5BE-D87E-4F09-8681-F52923586849}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
